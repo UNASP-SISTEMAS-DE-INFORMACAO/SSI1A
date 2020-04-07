@@ -12,14 +12,17 @@ programa
 		contador++
 		*/
 		//Realizar uma soma dos números digitados pelo usuário
+		// > , < , >= , <= , == , !=
 		enquanto(num != 0){
 		  escreva(contador+"- Digite um número: ")
 		  leia(num)
 		  contador = contador + 1
 		  soma = soma + num
+		  
 		}
-
+		real media = (soma/contador)
 		escreva("A soma dos número digitados: "+soma)
+		escreva("A media dos número digitados" +media)
 		
 	}
 }
@@ -28,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 345; 
+ * @POSICAO-CURSOR = 385; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
