@@ -11,8 +11,10 @@ int main(){
   	//   >      <      >=    <=    !=
 
 	do{	
-		printf("Digite um número entre 0 e 10 ",num);
-		scanf("%d",&num);
+		do{
+			printf("Digite um número entre 0 e 10 ",num);
+			scanf("%d",&num);
+		}while(num<0 || num> 10);
 		soma+= num;
 	}while(num!=0);
 
